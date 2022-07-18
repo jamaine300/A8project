@@ -24,8 +24,6 @@ CREATE TABLE new_listings (
     CONSTRAINT fk_homes_avail
     	FOREIGN KEY(RegionID)
     		REFERENCES homes_avail(RegionID)
-
-
 );
 
 --Creates Home Sales table
